@@ -1,0 +1,16 @@
+.header{
+        &__logo{
+        font-family: 'Shrikhand',sans-serif;
+        @include flexbox--center;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        &__restaurants{
+            @include flexbox--center;
+                &__logo{
+                font-size: 29px;
+                font-family: "Shrikhand", sans-serif;
+                
+                }       
+        }
+    
+} 

@@ -1,0 +1,51 @@
+.btn{
+    @include button;
+}
+.link__arrow{
+    text-decoration: none; 
+    color: rgb(68, 66, 66);
+    left: 2rem;
+    height: 2rem;
+    width: 2rem;
+    font-size: 1.2rem;
+    position: absolute;
+
+}
+.heart {
+    width: 22px;
+    height: 22px;
+    color: gray;
+}
+
+
+.btn--command {
+    border-radius: 200px;
+    background: linear-gradient(180deg, #f378dc 0%, #9b4edf 100%);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    padding: 0 20px;
+    color: white;
+    height: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    
+}
+
+.btn__provence{
+    border-radius: 15px;
+    background-color:white ;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    color: black;
+    height: 95px;   
+    margin-top: 20px; 
+    padding-top: 0.1%;
+    padding-left: 3%;
+}
+

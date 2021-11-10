@@ -1,0 +1,32 @@
+.loader{
+    position:fixed;
+    z-index:20;
+    background:transparent;
+    margin:auto;
+    height:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    animation: chargeur 3s linear;
+    visibility:hidden;
+    
+    &__border{
+      @include flexbox--center;
+      border-top-color:rgba(155, 78, 223, 1);
+      border-bottom-color:rgba(243, 120, 220, 1);
+      border:16px solid #fafafa;
+      border-radius:50%;
+      width:100px;
+      height:100px;
+      margin:auto;
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      animation: chargeur 3s linear;
+      z-index:10;
+      visibility:hidden;
+    }
+  }

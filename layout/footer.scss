@@ -1,0 +1,55 @@
+.footer{
+    background-color: rgb(54, 53, 54);
+    width: 100%;
+    height: 12.5rem;
+    position: relative;
+    &__restaurants{
+        margin-top: 3.1rem;
+    }
+    &__bloc{
+        margin: 0;
+        padding: 0 1.9rem;
+        width: auto;
+        max-width: 1200px;
+        &__logo{
+            font-family: "Shrikhand", sans-serif;
+            font-size: 1.25rem;
+            padding: 1rem 0;
+            & a{
+                text-decoration: none;
+                color: white;
+            }
+            
+            
+        }
+        &__links{
+            display:flex;
+            flex-direction: column;
+            width: auto;    
+        }      
+        &__link{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            color: white;
+            height: 1.9rem;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+            &__title{
+                font-size: 0.6rem;
+            }
+            & i{
+                margin-right: 0.5rem;
+            }
+            & a{
+                color: white;
+                text-decoration: none;
+            }
+        }  
+    }     
+}
+
+
