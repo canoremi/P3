@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./main.scss:./main.css", 
-    "prefix":"postcss ./main.css --use autoprefixer -d .P03/main.css/prefixed/"
+    "prefix":"postcss ./main.css --use autoprefixer -d ./main.css/prefixed/"
   },
   "keywords": [],
   "author": "",
