@@ -25,11 +25,14 @@
         &__links{
             display:flex;
             flex-direction: column;
+            -webkit-flex-direction: column;
             width: auto;    
         }      
         &__link{
             display:flex;
             flex-direction: row;
+            -webkit-flex-direction: row;
+            -webkit-align-items: center;
             align-items: center;
             text-align: center;
             color: white;

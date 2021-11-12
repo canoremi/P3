@@ -23,18 +23,24 @@
     background: linear-gradient(180deg, #f378dc 0%, #9b4edf 100%);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     opacity: 1;
+    -webkit-opacity: 1;
     padding: 0 20px;
     color: white;
     height: 50px;
     width: 40%;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
     align-items: center;
     &:hover{
         cursor: pointer;
         opacity: 0.8;
+        -webkit-opacity: 0.8;
     }
-    
+    @media (min-width:60rem){
+        width: 15rem;
+    }
 }
 
 .btn__provence{
@@ -42,6 +48,7 @@
     background-color:white ;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     opacity: 1;
+    -webkit-opacity: 1;
     color: black;
     height: 95px;   
     margin-top: 20px; 

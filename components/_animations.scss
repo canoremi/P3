@@ -1,6 +1,7 @@
 @keyframes chargeur{
     0%{
       visibility:visible;
+      -webkit-transform: rotate(0deg);
       transform:rotate(0deg) scale(1);
       border-top-color:#fafafa;
       border-bottom-color:#fafafa;
@@ -11,6 +12,7 @@
     }
     50%{
       transform:rotate(360deg) scale(1.15);
+      -webkit-transform: rotate(360deg) scale(1.15);
     }
     75%{
       border-top-color:rgba(155, 78, 223, 1) ;
@@ -18,6 +20,7 @@
     }
     
     100%{
+      -webkit-transform: rotate(720deg) scale(1);
       transform:rotate(720deg) scale(1);
       border-top-color:#fafafa;
       border-bottom-color:#fafafa;
@@ -27,37 +30,48 @@
 
 @keyframes appear{
     0%{
-        opacity: 0.5;
+      -webkit-opacity:0.5;  
+      opacity: 0.5;
     }
     25%{
-        opacity: 0.5;
+      -webkit-opacity:0.5;   
+      opacity: 0.5;
     }
     50%{
-        opacity: 0.5;
+      -webkit-opacity:0.5; 
+      opacity: 0.5;
     }
     75%{
-        opacity: 0.5;
+      -webkit-opacity:0.5;   
+      opacity: 0.5;
     }
     100%{
-        opacity: 1;
+      -webkit-opacity:0.5;   
+      opacity: 1;
     }
 
 }
 @keyframes menuappear{
     0% {
         transform: translateY(50%);
+        -webkit-transform: translateY(50%);
         opacity: 0;
+        -webkit-opacity:0; 
       }
       100% {
         transform: translateY(0);
+        -webkit-transform: translateY(0);
         opacity: 1;
+        -webkit-opacity:1; 
       }
 }
 @keyframes check-menu{
   0%{ 
     transform: rotate(-270deg);
+    -webkit-transform: rotate(-270deg);
   }
   100%{
     transform: rotate(0);
+    -webkit-transform: rotate(0);
   }
 }
