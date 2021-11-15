@@ -1,8 +1,8 @@
 .section-restaurants{
     background-color: $background-color-bloc;
-    height: 1250px;
+    height: 80rem;
     padding: 1.7rem;  
-    @media (min-width :1024px){
+    @media (min-width :60rem){
         height: auto;
         transform: translateY(-10rem);
         -webkit-transform: translateY(-10rem);
@@ -162,9 +162,15 @@
              display: flex;
              overflow: hidden;
              width: 23rem;
+            
             @media (min-width:37.5rem){
-                width: auto;
+                width: 36rem;
             }
+            @media screen and (min-width: 60rem){
+                width: 27.1rem;
+
+            }  
+    
                          
             &__check{
                 background-color: $colortertiary;
@@ -343,7 +349,7 @@
 }
 .container {
     margin: auto;
-    @media (min-width:60){
+    @media (min-width:60rem){
         height: auto;
     }
 }

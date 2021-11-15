@@ -12,21 +12,21 @@
 
 }
 .heart {
-    width: 22px;
-    height: 22px;
+    width: 1.4rem;
+    height: 1.4rem;
     color: gray;
 }
 
 
 .btn--command {
-    border-radius: 200px;
+    border-radius: 12.5rem;
     background: linear-gradient(180deg, #f378dc 0%, #9b4edf 100%);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.7rem 0 rgba(0, 0, 0, 0.3);
     opacity: 1;
     -webkit-opacity: 1;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     color: white;
-    height: 50px;
+    height: 3rem;
     width: 40%;
     display: flex;
     -webkit-justify-content: center;
@@ -43,16 +43,4 @@
     }
 }
 
-.btn__provence{
-    border-radius: 15px;
-    background-color:white ;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-    opacity: 1;
-    -webkit-opacity: 1;
-    color: black;
-    height: 95px;   
-    margin-top: 20px; 
-    padding-top: 0.1%;
-    padding-left: 3%;
-}
 

@@ -30,20 +30,20 @@
 }
 
 .heart {
-  width: 22px;
-  height: 22px;
+  width: 1.4rem;
+  height: 1.4rem;
   color: gray;
 }
 
 .btn--command {
-  border-radius: 200px;
+  border-radius: 12.5rem;
   background: linear-gradient(180deg, #f378dc 0%, #9b4edf 100%);
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.7rem 0 rgba(0, 0, 0, 0.3);
   opacity: 1;
   -webkit-opacity: 1;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   color: white;
-  height: 50px;
+  height: 3rem;
   width: 40%;
   display: flex;
   -webkit-justify-content: center;
@@ -60,19 +60,6 @@
   .btn--command {
     width: 15rem;
   }
-}
-
-.btn__provence {
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  opacity: 1;
-  -webkit-opacity: 1;
-  color: black;
-  height: 95px;
-  margin-top: 20px;
-  padding-top: 0.1%;
-  padding-left: 3%;
 }
 
 .loader {
@@ -97,11 +84,11 @@
   -webkit-align-items: center;
   border-top-color: #9b4edf;
   border-bottom-color: #f378dc;
-  border: 16px solid #fafafa;
+  border: 1rem solid #fafafa;
   border-radius: 50%;
   -webkit-border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   margin: auto;
   position: fixed;
   top: 0;
@@ -127,7 +114,7 @@
   margin: 0;
   padding: 0 1.9rem;
   width: auto;
-  max-width: 1200px;
+  max-width: 75rem;
 }
 .footer__bloc__logo {
   font-family: "Shrikhand", sans-serif;
@@ -171,10 +158,10 @@
 
 .section-restaurants {
   background-color: #fafafa;
-  height: 1250px;
+  height: 80rem;
   padding: 1.7rem;
 }
-@media (min-width: 1024px) {
+@media (min-width: 60rem) {
   .section-restaurants {
     height: auto;
     transform: translateY(-10rem);
@@ -346,7 +333,12 @@
 }
 @media (min-width: 37.5rem) {
   .menus--category__btn {
-    width: auto;
+    width: 36rem;
+  }
+}
+@media screen and (min-width: 60rem) {
+  .menus--category__btn {
+    width: 27.1rem;
   }
 }
 .menus--category__btn__check {
@@ -547,7 +539,7 @@
 .container {
   margin: auto;
 }
-@media (min-width: 60) {
+@media (min-width: 60rem) {
   .container {
     height: auto;
   }
@@ -560,7 +552,7 @@
   align-items: center;
   -webkit-justify-content: center;
   -webkit-align-items: center;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.1);
 }
 .header__restaurants {
   display: flex;
@@ -570,7 +562,7 @@
   -webkit-align-items: center;
 }
 .header__restaurants__logo {
-  font-size: 29px;
+  font-size: 1.8rem;
   font-family: "Shrikhand", sans-serif;
 }
 
